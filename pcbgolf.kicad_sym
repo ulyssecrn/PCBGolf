@@ -781,7 +781,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2795,7 +2795,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:DCJACK_2MM_SMT"
+		(property "Footprint" "lib_jlc:DC-IN-SMD_DC-044D-2.5A-2.0-SMT"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7513,7 +7513,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10204,7 +10204,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "pcbgolf:CHIPLED"
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15174,7 +15174,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23777,7 +23777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:USB-C-FEMALE-VERT-GCT"
+		(property "Footprint" "lib_jlc:USB-C-SMD_TYPE-C-USB-18"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28081,7 +28081,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30095,7 +30095,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:DCJACK_2MM_SMT"
+		(property "Footprint" "lib_jlc:DC-IN-SMD_DC-044D-2.5A-2.0-SMT"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34815,7 +34815,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37506,7 +37506,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "pcbgolf:CHIPLED"
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42476,7 +42476,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51079,7 +51079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:USB-C-FEMALE-VERT-GCT"
+		(property "Footprint" "lib_jlc:USB-C-SMD_TYPE-C-USB-18"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55178,7 +55178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32H725ZGTx"
+		(property "Value" "STM32H725AGI3"
 			(at 27.94 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55189,7 +55189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pcbgolf:LQFP-144_20x20mm_P0.5mm"
+		(property "Footprint" "lib_jlc:STM32H725-UFBGA169-remap"
 			(at -43.18 -88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58967,7 +58967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "lib_jlc:NCS20071-TSOT23-5"
 			(at 1.27 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)

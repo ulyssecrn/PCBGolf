@@ -685,7 +685,7 @@
         "uuid": "4ad19786-2fb8-46fb-8362-af47f4d986ee"
       }
     ],
-    "used_designators": "",
+    "used_designators": "LED10-18,LED30-37",
     "variants": []
   },
   "sheets": [

@@ -5,6 +5,145 @@
 	(uuid "5ce5ae11-0353-48de-90d0-85969444e2e6")
 	(paper "User" 297.0022 259.334)
 	(lib_symbols
+		(symbol "pcbgolf:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pcbgolf:STM32H725ZGTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -22,7 +161,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STM32H725ZGTx"
+			(property "Value" "STM32H725AGI3"
 				(at 27.94 90.17 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -33,7 +172,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "pcbgolf:LQFP-144_20x20mm_P0.5mm"
+			(property "Footprint" "lib_jlc:STM32H725-UFBGA169-remap"
 				(at -43.18 -88.9 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3810,7 +3949,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "pcbgolf:0402-C"
+			(property "Footprint" "lib_jlc:C_0201_0603Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5100,7 +5239,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "pcbgolf:0402-R"
+			(property "Footprint" "lib_jlc:R_0201_0603Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5585,145 +5724,6 @@
 						(effects
 							(font
 								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "pcbgolf:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -9897,7 +9897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:CREE-RGB-CLMVC"
+		(property "Footprint" "lib_jlc:RGB_NH-B1010"
 			(at 241.3 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9930,7 +9930,7 @@
 				)
 			)
 		)
-		(property "MPN" "CLMVC-FKA-CL1D1L71BB7C3C3"
+		(property "MPN" "NH-B1010RGBT-HF"
 			(at 241.3 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10074,7 +10074,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 21.59 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10245,7 +10245,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0805-C"
+		(property "Footprint" "lib_jlc:C_0402_1005Metric"
 			(at 213.36 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10278,7 +10278,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" "GRM155R61A106ME11D"
 			(at 213.36 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10328,7 +10328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32H725ZGTx"
+		(property "Value" "STM32H725AGI3"
 			(at 117.7133 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10339,7 +10339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pcbgolf:LQFP-144_20x20mm_P0.5mm"
+		(property "Footprint" "lib_jlc:STM32H725-UFBGA169-remap"
 			(at 69.85 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -10373,7 +10373,7 @@
 				)
 			)
 		)
-		(property "MPN" "STM32H725ZGT"
+		(property "MPN" "STM32H725AGI3"
 			(at 113.03 127 0)
 			(hide yes)
 			(show_name no)
@@ -10859,7 +10859,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:EVQ-Q2"
+		(property "Footprint" "lib_jlc:SW_TS2306A"
 			(at 236.22 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10892,7 +10892,7 @@
 				)
 			)
 		)
-		(property "MPN" "EVQ-Q2Y03W"
+		(property "MPN" "TS2306A"
 			(at 236.22 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11036,7 +11036,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 243.84 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11130,7 +11130,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 171.45 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11395,7 +11395,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0805-C"
+		(property "Footprint" "lib_jlc:C_0402_1005Metric"
 			(at 201.93 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11428,7 +11428,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" "GRM155R61A106ME11D"
 			(at 201.93 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11644,7 +11644,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 233.68 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11815,7 +11815,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 236.22 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11908,7 +11908,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:XTAL-3.2X2.5"
+		(property "Footprint" "lib_jlc:Crystal_2016_25M"
 			(at 34.29 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11941,7 +11941,7 @@
 				)
 			)
 		)
-		(property "MPN" "RH100-25.000-12-F-1010-TR"
+		(property "MPN" "SX1B25.000F1010F30"
 			(at 34.29 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12007,7 +12007,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 171.45 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12100,7 +12100,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 261.62 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -12429,7 +12429,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 54.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12522,7 +12522,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 261.62 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -12616,7 +12616,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 171.45 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12865,7 +12865,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 54.61 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12958,7 +12958,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0805-C"
+		(property "Footprint" "lib_jlc:C_0402_1005Metric"
 			(at 213.36 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12991,7 +12991,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" "GRM155R61A106ME11D"
 			(at 213.36 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13286,7 +13286,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 54.61 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -13472,7 +13472,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 222.25 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13565,7 +13565,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 254 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13737,7 +13737,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 54.61 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13830,7 +13830,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 171.45 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -13923,7 +13923,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0805-C"
+		(property "Footprint" "lib_jlc:C_0402_1005Metric"
 			(at 34.29 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -13956,7 +13956,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" "GRM155R61A106ME11D"
 			(at 34.29 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -14172,7 +14172,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 44.45 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -14343,7 +14343,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 223.52 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14593,7 +14593,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 54.61 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14764,7 +14764,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 44.45 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -14857,7 +14857,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 43.18 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15028,7 +15028,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "lib_jlc:C_0201_0603Metric"
 			(at 46.99 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15121,7 +15121,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 218.44 175.26 0)
 			(hide yes)
 			(show_name no)

@@ -5,6 +5,145 @@
 	(uuid "a460568a-62a0-4817-80d6-f93742958170")
 	(paper "User" 376.174 279.4)
 	(lib_symbols
+		(symbol "pcbgolf:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pcbgolf:comma.ai_11112255_C0805"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -296,7 +435,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "pcbgolf:CHIPLED"
+			(property "Footprint" "lib_jlc:LED_0402_1005Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1951,7 +2090,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "pcbgolf:0402-R"
+			(property "Footprint" "lib_jlc:R_0201_0603Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2671,7 +2810,7 @@
 					)
 				)
 			)
-			(property "Footprint" "pcbgolf:USB-C-FEMALE-VERT-GCT"
+			(property "Footprint" "lib_jlc:USB-C-SMD_TYPE-C-USB-18"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3351,145 +3490,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pcbgolf:+12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "ILIM: 3.06A"
 		(exclude_from_sim no)
@@ -3632,10 +3632,22 @@
 		(uuid "3d3d1185-d9f7-41ee-b7e3-3658a6e28cf3")
 	)
 	(junction
+		(at 224.79 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f5666d4-d167-49f2-9a2c-fca649b47d2e")
+	)
+	(junction
 		(at 135.89 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f7dd382-6bd2-4b4a-96f2-e6ecfd2295e0")
+	)
+	(junction
+		(at 224.79 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45718470-39ec-4c70-8149-2849f27d12dd")
 	)
 	(junction
 		(at 297.18 207.01)
@@ -3660,6 +3672,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50b2301f-6274-4a64-963f-91902bec2d26")
+	)
+	(junction
+		(at 307.34 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "512affaa-cf7d-4a0f-892e-7537a295b47c")
 	)
 	(junction
 		(at 118.11 128.27)
@@ -3728,10 +3746,22 @@
 		(uuid "799b6147-bd8e-4a0a-8ba1-b39ee10e6321")
 	)
 	(junction
+		(at 307.34 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bd58bba-d07c-401f-adc9-84443c608789")
+	)
+	(junction
 		(at 95.25 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f5368c6-1372-4636-97f1-da4c6827a846")
+	)
+	(junction
+		(at 307.34 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "820f8951-c3c0-4366-971f-6c7f5842183b")
 	)
 	(junction
 		(at 135.89 217.17)
@@ -3744,6 +3774,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f5c3c02-7493-42b4-afe1-92a7f75b43bb")
+	)
+	(junction
+		(at 224.79 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9252e592-8a5b-4d05-ab2d-300f46146c50")
+	)
+	(junction
+		(at 224.79 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99262aa9-204b-4639-8a37-6718768b69cd")
 	)
 	(junction
 		(at 135.89 110.49)
@@ -3780,6 +3822,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b31cae9d-7e24-4938-9d50-d8a4ef0707dc")
+	)
+	(junction
+		(at 307.34 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b77cdef9-f522-4f32-b6a4-36497f46f92c")
 	)
 	(junction
 		(at 176.53 57.15)
@@ -4091,7 +4139,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 24.13) (xy 304.8 24.13)
+			(xy 302.26 24.13) (xy 307.34 24.13)
 		)
 		(stroke
 			(width 0.1524)
@@ -4141,7 +4189,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 184.15) (xy 222.25 184.15)
+			(xy 219.71 184.15) (xy 224.79 184.15)
 		)
 		(stroke
 			(width 0.1524)
@@ -4191,7 +4239,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 184.15) (xy 304.8 184.15)
+			(xy 302.26 184.15) (xy 307.34 184.15)
 		)
 		(stroke
 			(width 0.1524)
@@ -4401,7 +4449,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 24.13) (xy 222.25 24.13)
+			(xy 219.71 24.13) (xy 224.79 24.13)
 		)
 		(stroke
 			(width 0.1524)
@@ -4671,7 +4719,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 77.47) (xy 304.8 77.47)
+			(xy 302.26 77.47) (xy 307.34 77.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -5321,6 +5369,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 130.81) (xy 307.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437e9dc6-af85-48aa-aa70-9eff105c6a13")
+	)
+	(wire
+		(pts
 			(xy 217.17 46.99) (xy 214.63 46.99)
 		)
 		(stroke
@@ -5581,6 +5639,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 77.47) (xy 307.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552618ca-20ca-4a22-b0a2-7b0cf301f68c")
+	)
+	(wire
+		(pts
 			(xy 330.2 194.31) (xy 335.28 194.31)
 		)
 		(stroke
@@ -5588,6 +5656,16 @@
 			(type solid)
 		)
 		(uuid "55f31025-67d3-4a1b-8c93-f5036dc80afb")
+	)
+	(wire
+		(pts
+			(xy 224.79 77.47) (xy 224.79 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5602613b-d872-4aa3-8075-d5667792482c")
 	)
 	(wire
 		(pts
@@ -5658,6 +5736,16 @@
 			(type solid)
 		)
 		(uuid "580db7bb-c85e-4c73-9e93-8d6dda433745")
+	)
+	(wire
+		(pts
+			(xy 224.79 77.47) (xy 224.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5819a1d3-c5b3-4d6d-bb1a-c8fd82c14b60")
 	)
 	(wire
 		(pts
@@ -5748,6 +5836,16 @@
 			(type solid)
 		)
 		(uuid "5a3daf36-310b-4c3c-b9c3-035fcb168bcb")
+	)
+	(wire
+		(pts
+			(xy 307.34 184.15) (xy 307.34 181.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a7f123c-2557-4e8b-a438-6f19d80eb006")
 	)
 	(wire
 		(pts
@@ -5851,7 +5949,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 130.81) (xy 222.25 130.81)
+			(xy 219.71 130.81) (xy 224.79 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -5908,6 +6006,16 @@
 			(type solid)
 		)
 		(uuid "61e6db71-ec06-48b6-9381-56b4912e4196")
+	)
+	(wire
+		(pts
+			(xy 224.79 184.15) (xy 224.79 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e3545f-5c16-4d56-ae07-a22631bd62b6")
 	)
 	(wire
 		(pts
@@ -6131,6 +6239,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 130.81) (xy 224.79 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c6fb16-e65a-4720-aea7-569583392790")
+	)
+	(wire
+		(pts
 			(xy 245.11 128.27) (xy 255.27 128.27)
 		)
 		(stroke
@@ -6311,6 +6429,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 24.13) (xy 307.34 21.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "83b6199f-777a-4428-8eec-ad701e94d3cf")
+	)
+	(wire
+		(pts
 			(xy 46.99 113.03) (xy 46.99 115.57)
 		)
 		(stroke
@@ -6328,6 +6456,16 @@
 			(type solid)
 		)
 		(uuid "84dc9cbe-0163-4711-83c3-dbdeec107e90")
+	)
+	(wire
+		(pts
+			(xy 307.34 77.47) (xy 307.34 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "855b54a5-a59d-4d0d-aec4-6fd8007ea8ec")
 	)
 	(wire
 		(pts
@@ -6731,7 +6869,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 77.47) (xy 222.25 77.47)
+			(xy 219.71 77.47) (xy 224.79 77.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -6768,6 +6906,16 @@
 			(type solid)
 		)
 		(uuid "9ee53d74-dd8b-44ee-b7d7-9f90832d3793")
+	)
+	(wire
+		(pts
+			(xy 307.34 130.81) (xy 307.34 128.27)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9f551e73-566c-4bca-bebd-abf0c9995011")
 	)
 	(wire
 		(pts
@@ -7031,6 +7179,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 130.81) (xy 224.79 128.27)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b24f165e-6cef-49c2-a512-3bf3cdb47fa3")
+	)
+	(wire
+		(pts
 			(xy 138.43 100.33) (xy 135.89 100.33)
 		)
 		(stroke
@@ -7048,6 +7206,16 @@
 			(type solid)
 		)
 		(uuid "b35a88bb-0d08-4f17-bdb0-dcc3249a255d")
+	)
+	(wire
+		(pts
+			(xy 307.34 184.15) (xy 307.34 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4158b45-c535-4674-9c9e-b957c4ce2c5f")
 	)
 	(wire
 		(pts
@@ -7228,6 +7396,16 @@
 			(type solid)
 		)
 		(uuid "bffd1728-fd6e-43cf-98b3-3e1e5fcb9603")
+	)
+	(wire
+		(pts
+			(xy 307.34 24.13) (xy 307.34 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f4835c-cf1d-4670-9b8f-2cac5991d192")
 	)
 	(wire
 		(pts
@@ -7551,6 +7729,26 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 24.13) (xy 224.79 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db586bd5-b1d1-4c1d-bc7c-b264aa88dd81")
+	)
+	(wire
+		(pts
+			(xy 224.79 184.15) (xy 224.79 181.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "db770897-49d4-4422-bf55-e3db165f8a41")
+	)
+	(wire
+		(pts
 			(xy 335.28 140.97) (xy 337.82 140.97)
 		)
 		(stroke
@@ -7608,6 +7806,16 @@
 			(type solid)
 		)
 		(uuid "e4592679-d898-42bf-a046-1681ccabc1a0")
+	)
+	(wire
+		(pts
+			(xy 224.79 24.13) (xy 224.79 21.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e47eb269-1811-4dcb-8cf3-aa7f0eceb755")
 	)
 	(wire
 		(pts
@@ -7731,7 +7939,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 130.81) (xy 304.8 130.81)
+			(xy 302.26 130.81) (xy 307.34 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -10766,7 +10974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:USB-C-FEMALE-VERT-GCT"
+		(property "Footprint" "lib_jlc:USB-C-SMD_TYPE-C-USB-18"
 			(at 156.21 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10799,7 +11007,7 @@
 				)
 			)
 		)
-		(property "MPN" "10132328-10011LF"
+		(property "MPN" "1054500101"
 			(at 156.21 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10949,7 +11157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "lib_jlc:SSM6N44FE-SOT563-remap"
 			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10982,7 +11190,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "SSM6N44FE,LM"
 			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11051,7 +11259,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 242.57 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11646,6 +11854,96 @@
 		)
 	)
 	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 229.87 26.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c88113a-7f91-45f6-aa92-c07c478c9a17")
+		(property "Reference" "LED10"
+			(at 231.14 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_RED_0402"
+			(at 228.6 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 229.87 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1005SURC"
+			(at 229.87 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "430de764-beb3-4ba3-96a5-d44ca7d63368")
+		)
+		(pin "C"
+			(uuid "2f3456d4-6eb4-4b5f-9a91-d7e9a5cf5340")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 46.99 161.29 90)
 		(unit 1)
@@ -11678,7 +11976,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 46.99 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -11849,7 +12147,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 242.57 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11942,7 +12240,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 95.25 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12035,7 +12333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "lib_jlc:SSM6N44FE-SOT563-remap"
 			(at 307.34 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12068,7 +12366,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "SSM6N44FE,LM"
 			(at 307.34 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12137,7 +12435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:USB-C-FEMALE-VERT-GCT"
+		(property "Footprint" "lib_jlc:USB-C-SMD_TYPE-C-USB-18"
 			(at 156.21 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12170,7 +12468,7 @@
 				)
 			)
 		)
-		(property "MPN" "10132328-10011LF"
+		(property "MPN" "1054500101"
 			(at 156.21 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12320,7 +12618,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 245.11 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12413,7 +12711,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0805-C"
+		(property "Footprint" "lib_jlc:C_0603_1608Metric"
 			(at 22.86 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12446,7 +12744,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 22.86 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12506,7 +12804,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 118.11 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -12561,102 +12859,6 @@
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
 					(reference "R77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
-		(at 307.34 24.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "29c28c0c-9cfb-4712-afb2-896471194b95")
-		(property "Reference" "LED14"
-			(at 312.42 29.337 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
-			(at 307.34 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOT23-3"
-			(at 307.34 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 307.34 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AM23ESGW"
-			(at 307.34 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "3"
-			(uuid "ac4ea24b-489c-4c5d-afe5-7fe76f266d74")
-		)
-		(pin "1"
-			(uuid "db2ba66b-a24e-4694-b925-d98d04f4808b")
-		)
-		(pin "2"
-			(uuid "a3918b11-6419-409a-a188-4cbb712775ea")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -12813,6 +13015,96 @@
 		)
 	)
 	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 312.42 186.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2cfcb718-06a8-4431-afb6-f2f299654588")
+		(property "Reference" "LED17"
+			(at 313.69 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_RED_0402"
+			(at 311.15 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 312.42 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1005SURC"
+			(at 312.42 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "bcd10fbb-3f39-484b-b9d4-c7c7dce07735")
+		)
+		(pin "C"
+			(uuid "4b4c997d-6610-48dd-a6c6-8fffd31d0d57")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_GND")
 		(at 118.11 118.11 0)
 		(unit 1)
@@ -12891,102 +13183,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
-		(at 307.34 77.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f2b6def-71be-4dd2-badd-3745089a7d3e")
-		(property "Reference" "LED15"
-			(at 312.42 82.677 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
-			(at 307.34 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOT23-3"
-			(at 307.34 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 307.34 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AM23ESGW"
-			(at 307.34 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "cda4b6b5-2a99-48bf-8b44-e5c8430949fb")
-		)
-		(pin "1"
-			(uuid "02e54e3a-d3bb-49ff-ad65-f380219cb18a")
-		)
-		(pin "3"
-			(uuid "ad9465ec-295f-42e3-9f36-e100a56b25f6")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "LED15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2")
 		(at 307.34 100.33 0)
 		(unit 1)
@@ -13019,7 +13215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "lib_jlc:SSM6N44FE-SOT563-remap"
 			(at 307.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13052,7 +13248,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "SSM6N44FE,LM"
 			(at 307.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13277,7 +13473,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:CHIPLED"
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
 			(at 118.11 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13310,7 +13506,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG R971-KN-1"
+		(property "MPN" "16-213/GHC-YR1S1/3T"
 			(at 118.11 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13494,6 +13690,96 @@
 		)
 	)
 	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 312.42 21.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34db5d7e-8ae2-46e1-99c5-27dd822fe48b")
+		(property "Reference" "LED34"
+			(at 313.69 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_GREEN_0402"
+			(at 311.15 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 312.42 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "16-213/GHC-YR1S1/3T"
+			(at 312.42 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "dd760536-032c-4350-b4a4-c5eee4b334ce")
+		)
+		(pin "C"
+			(uuid "2ed75642-aa90-41df-a205-c2ce3daae0b1")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 325.12 87.63 0)
 		(unit 1)
@@ -13526,7 +13812,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 325.12 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13821,6 +14107,96 @@
 		)
 	)
 	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 229.87 80.01 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3966c8f4-69ea-43b8-96eb-898c80fbfe86")
+		(property "Reference" "LED11"
+			(at 231.14 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_RED_0402"
+			(at 228.6 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 229.87 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1005SURC"
+			(at 229.87 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "1ae5a1a8-5e6b-44b1-a3c5-6d6dcb607e74")
+		)
+		(pin "C"
+			(uuid "bbe4fc3e-8d48-4446-9f2c-e92ab4882202")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 118.11 87.63 270)
 		(unit 1)
@@ -13853,7 +14229,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 118.11 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13946,7 +14322,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 322.58 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14039,7 +14415,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 214.63 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -14132,7 +14508,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 327.66 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14303,7 +14679,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 245.11 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -14442,102 +14818,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
-		(at 224.79 77.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "475c4316-83aa-4296-b1bd-428120040067")
-		(property "Reference" "LED11"
-			(at 229.87 82.677 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
-			(at 224.79 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOT23-3"
-			(at 224.79 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AM23ESGW"
-			(at 224.79 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "6a6d3f6d-7b52-4e6e-be56-3ab565ba2dbb")
-		)
-		(pin "2"
-			(uuid "314d4581-00c9-4fad-b242-9df752c11c3a")
-		)
-		(pin "3"
-			(uuid "d2c8049b-0c79-4901-a18e-83413933e6d0")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "LED11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 322.58 80.01 0)
 		(unit 1)
@@ -14570,7 +14850,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 322.58 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -14663,7 +14943,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 325.12 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14990,7 +15270,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 322.58 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -15083,7 +15363,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 245.11 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15176,7 +15456,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 325.12 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15347,7 +15627,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 245.11 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -15440,7 +15720,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 46.99 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -15611,7 +15891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "lib_jlc:SSM6N44FE-SOT563-remap"
 			(at 307.34 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15644,7 +15924,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "SSM6N44FE,LM"
 			(at 307.34 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15947,7 +16227,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 322.58 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -16040,7 +16320,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 240.03 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -16251,6 +16531,96 @@
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
 					(reference "#GND090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 312.42 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "636bf89d-9a12-4c1f-b2bf-234088e50b2b")
+		(property "Reference" "LED16"
+			(at 313.69 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_RED_0402"
+			(at 311.15 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 312.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1005SURC"
+			(at 312.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "c35b41c4-166f-4351-9c0f-2c92508e6cfc")
+		)
+		(pin "C"
+			(uuid "351f9bd6-75d6-4bb6-aa96-fda4f121bae3")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED16")
 					(unit 1)
 				)
 			)
@@ -16569,6 +16939,96 @@
 		)
 	)
 	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 229.87 128.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "646169ba-f970-4f7f-9aab-4a4c61d6e076")
+		(property "Reference" "LED32"
+			(at 231.14 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_GREEN_0402"
+			(at 228.6 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 229.87 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "16-213/GHC-YR1S1/3T"
+			(at 229.87 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "6109630e-a404-4897-9b8f-4a7ca740419d")
+		)
+		(pin "C"
+			(uuid "1173e7c4-cca3-4abb-8c43-58a6ca5d524b")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2")
 		(at 307.34 153.67 0)
 		(unit 1)
@@ -16601,7 +17061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "lib_jlc:SSM6N44FE-SOT563-remap"
 			(at 307.34 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16634,7 +17094,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "SSM6N44FE,LM"
 			(at 307.34 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16703,7 +17163,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 118.11 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16796,7 +17256,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 322.58 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16889,7 +17349,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 240.03 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -17060,7 +17520,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 327.66 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17277,102 +17737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
-		(at 224.79 24.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "77403ac5-88f9-495f-8a11-e372010194f4")
-		(property "Reference" "LED10"
-			(at 229.87 29.337 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
-			(at 224.79 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOT23-3"
-			(at 224.79 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AM23ESGW"
-			(at 224.79 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "3"
-			(uuid "2293b2f2-2325-40dc-bab1-fbbf93d08e71")
-		)
-		(pin "1"
-			(uuid "61526e06-91b5-4dff-8cb0-76484d127026")
-		)
-		(pin "2"
-			(uuid "b8a15bef-6a93-43c4-82db-1c88df5dbc67")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "LED10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 242.57 199.39 0)
 		(unit 1)
@@ -17405,7 +17769,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 242.57 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -17498,7 +17862,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 95.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -17559,6 +17923,96 @@
 		)
 	)
 	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 312.42 26.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a7c226f-b536-469f-8a69-3a0e81fb67d2")
+		(property "Reference" "LED14"
+			(at 313.69 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_RED_0402"
+			(at 311.15 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 312.42 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1005SURC"
+			(at 312.42 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "d923bac7-1246-47a4-8757-4262e751c1f6")
+		)
+		(pin "C"
+			(uuid "e93b8b6d-a4b6-4b90-89f7-18e6c3bff18f")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 325.12 92.71 0)
 		(unit 1)
@@ -17591,7 +18045,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 325.12 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -17684,7 +18138,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 297.18 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17777,7 +18231,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 325.12 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -17948,7 +18402,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 46.99 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -18119,7 +18573,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 327.66 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -18212,7 +18666,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 242.57 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18383,7 +18837,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 322.58 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18554,7 +19008,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 297.18 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -18609,6 +19063,96 @@
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
 					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 229.87 21.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a864cac-4f75-4479-9946-8bde3fe88f37")
+		(property "Reference" "LED30"
+			(at 231.14 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_GREEN_0402"
+			(at 228.6 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 229.87 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "16-213/GHC-YR1S1/3T"
+			(at 229.87 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "b56a4ed9-4797-43f9-9866-5161decd70eb")
+		)
+		(pin "C"
+			(uuid "bb98d56c-9a24-414e-be6e-576aa7985e16")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED30")
 					(unit 1)
 				)
 			)
@@ -18725,7 +19269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:USB-C-FEMALE-VERT-GCT"
+		(property "Footprint" "lib_jlc:USB-C-SMD_TYPE-C-USB-18"
 			(at 156.21 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -18758,7 +19302,7 @@
 				)
 			)
 		)
-		(property "MPN" "10132328-10011LF"
+		(property "MPN" "1054500101"
 			(at 156.21 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -18908,7 +19452,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 327.66 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -19001,7 +19545,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0805-C"
+		(property "Footprint" "lib_jlc:C_0603_1608Metric"
 			(at 22.86 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -19034,7 +19578,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 22.86 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -19172,7 +19716,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 240.03 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -19421,7 +19965,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 242.57 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -19560,6 +20104,96 @@
 		)
 	)
 	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 229.87 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98360cc4-8cef-4a26-8f63-44dff40be19c")
+		(property "Reference" "LED12"
+			(at 231.14 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_RED_0402"
+			(at 228.6 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 229.87 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1005SURC"
+			(at 229.87 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "f4736ad9-47b1-4c0a-8a6c-8ac6799be256")
+		)
+		(pin "C"
+			(uuid "4ac263ec-2820-4c06-a051-aacade8b94c3")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_GND")
 		(at 312.42 64.77 0)
 		(unit 1)
@@ -19670,7 +20304,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0805-C"
+		(property "Footprint" "lib_jlc:C_0603_1608Metric"
 			(at 22.86 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -19703,7 +20337,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 22.86 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -19763,7 +20397,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 46.99 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -19856,7 +20490,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 297.18 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -20151,102 +20785,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
-		(at 307.34 130.81 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a04f4626-1ca4-4c4e-b088-5d33fc1297a1")
-		(property "Reference" "LED16"
-			(at 312.42 136.017 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
-			(at 307.34 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOT23-3"
-			(at 307.34 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 307.34 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AM23ESGW"
-			(at 307.34 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "61206023-a24d-4c4f-b7a5-2943b67ed41a")
-		)
-		(pin "2"
-			(uuid "ebedc225-20c0-4f22-a190-89b168964c3b")
-		)
-		(pin "3"
-			(uuid "aa794b85-132d-4609-8c69-649b15068f66")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "LED16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_C0805")
 		(at 22.86 49.53 0)
 		(unit 1)
@@ -20279,7 +20817,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0805-C"
+		(property "Footprint" "lib_jlc:C_0603_1608Metric"
 			(at 22.86 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -20312,7 +20850,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 22.86 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -20372,7 +20910,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 240.03 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -20465,7 +21003,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:CHIPLED"
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
 			(at 118.11 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -20498,7 +21036,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG R971-KN-1"
+		(property "MPN" "16-213/GHC-YR1S1/3T"
 			(at 118.11 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -20714,7 +21252,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 214.63 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -20775,6 +21313,96 @@
 		)
 	)
 	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 229.87 181.61 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abc8a51d-c859-4027-b50f-cd6e22a8452f")
+		(property "Reference" "LED33"
+			(at 231.14 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_GREEN_0402"
+			(at 228.6 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 229.87 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "16-213/GHC-YR1S1/3T"
+			(at 229.87 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "142a5dd7-14c9-474b-9291-ed8608e6941f")
+		)
+		(pin "C"
+			(uuid "ef573aba-fd63-4b67-8232-b0205fb4b6ab")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 118.11 140.97 270)
 		(unit 1)
@@ -20807,7 +21435,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 118.11 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -20862,6 +21490,96 @@
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
 					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 312.42 128.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afe96074-e451-4cdc-9b04-9757ac5e9945")
+		(property "Reference" "LED36"
+			(at 313.69 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_GREEN_0402"
+			(at 311.15 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 312.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "16-213/GHC-YR1S1/3T"
+			(at 312.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "87dae973-3c46-4eb0-ba94-2a480c3b2a5c")
+		)
+		(pin "C"
+			(uuid "1083a9b9-ba15-455b-a0b7-4857a320eb58")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED36")
 					(unit 1)
 				)
 			)
@@ -20978,7 +21696,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 95.25 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -21149,7 +21867,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:CHIPLED"
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
 			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21182,7 +21900,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG R971-KN-1"
+		(property "MPN" "16-213/GHC-YR1S1/3T"
 			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21242,7 +21960,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 240.03 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -21381,102 +22099,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
-		(at 224.79 130.81 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b96f387c-57b1-4ca0-9bb6-a21986a7bbd1")
-		(property "Reference" "LED12"
-			(at 229.87 136.017 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
-			(at 224.79 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOT23-3"
-			(at 224.79 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AM23ESGW"
-			(at 224.79 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "2a268137-e5d6-4e60-949a-999b4ec5233e")
-		)
-		(pin "2"
-			(uuid "2644cc5e-f969-4dfc-bbc1-352eed301a94")
-		)
-		(pin "3"
-			(uuid "1d44585c-cff1-4b35-9362-f252d463ce4b")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "LED12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2")
 		(at 224.79 207.01 0)
 		(unit 1)
@@ -21509,7 +22131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "lib_jlc:SSM6N44FE-SOT563-remap"
 			(at 224.79 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -21542,7 +22164,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "SSM6N44FE,LM"
 			(at 224.79 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -21845,7 +22467,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 322.58 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21984,6 +22606,96 @@
 		)
 	)
 	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 312.42 74.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5be83c0-fe9e-47b8-9b46-2b0326d6ef52")
+		(property "Reference" "LED35"
+			(at 313.69 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_GREEN_0402"
+			(at 311.15 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 312.42 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "16-213/GHC-YR1S1/3T"
+			(at 312.42 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "3b990aad-6f7d-47db-a776-37ac582f622e")
+		)
+		(pin "C"
+			(uuid "28223b8b-64cc-4cf5-a76e-727d451450de")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 242.57 34.29 0)
 		(unit 1)
@@ -22016,7 +22728,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 242.57 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -22311,6 +23023,186 @@
 		)
 	)
 	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 229.87 186.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce8100c2-5d67-4ce5-b677-fb3687485171")
+		(property "Reference" "LED13"
+			(at 231.14 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_RED_0402"
+			(at 228.6 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 229.87 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1005SURC"
+			(at 229.87 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "c464596e-af07-494e-832b-c689d1db7f49")
+		)
+		(pin "C"
+			(uuid "47cb2b4d-d2f6-4a92-9ce8-f173374395f5")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 312.42 80.01 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cea19ff5-bb90-4cdb-983a-4ecc2ffc79b6")
+		(property "Reference" "LED15"
+			(at 313.69 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_RED_0402"
+			(at 311.15 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 312.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1005SURC"
+			(at 312.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "0ba4c8f2-0a94-4c6c-b66a-b28136be57bc")
+		)
+		(pin "C"
+			(uuid "0fef0357-b3e8-47d2-b2fd-9c4537ce17ee")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 214.63 107.95 270)
 		(unit 1)
@@ -22343,7 +23235,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 214.63 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -22398,102 +23290,6 @@
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
 					(reference "R79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
-		(at 307.34 184.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf12d044-3ddc-4bd9-845b-168e69b2f801")
-		(property "Reference" "LED17"
-			(at 312.42 189.357 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
-			(at 307.34 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOT23-3"
-			(at 307.34 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 307.34 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AM23ESGW"
-			(at 307.34 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "3"
-			(uuid "ad69c6a9-709f-4d02-844a-84ba092dae22")
-		)
-		(pin "2"
-			(uuid "8c16d20c-63d9-4345-b098-97d4d009acfe")
-		)
-		(pin "1"
-			(uuid "e420ba26-e066-4508-8734-5f7f2adc4507")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "LED17")
 					(unit 1)
 				)
 			)
@@ -22766,7 +23562,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 95.25 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -22937,7 +23733,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 297.18 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -23264,7 +24060,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 242.57 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -23357,7 +24153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "lib_jlc:SSM6N44FE-SOT563-remap"
 			(at 224.79 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -23390,7 +24186,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "SSM6N44FE,LM"
 			(at 224.79 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -23459,7 +24255,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 214.63 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -23708,7 +24504,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 325.12 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -23801,7 +24597,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 240.03 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -23894,7 +24690,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 322.58 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -23987,7 +24783,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 325.12 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -24042,6 +24838,96 @@
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
 					(reference "R121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 229.87 74.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebd63054-f73f-44dd-87fb-af40c1cdea45")
+		(property "Reference" "LED31"
+			(at 231.14 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_GREEN_0402"
+			(at 228.6 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 229.87 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "16-213/GHC-YR1S1/3T"
+			(at 229.87 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "9eef884b-6970-408c-81d5-5e68076db178")
+		)
+		(pin "C"
+			(uuid "b425a6fd-1eed-4f66-9661-f81b5e82db5e")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED31")
 					(unit 1)
 				)
 			)
@@ -24230,7 +25116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:USB-C-FEMALE-VERT-GCT"
+		(property "Footprint" "lib_jlc:USB-C-SMD_TYPE-C-USB-18"
 			(at 156.21 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -24263,7 +25149,7 @@
 				)
 			)
 		)
-		(property "MPN" "10132328-10011LF"
+		(property "MPN" "1054500101"
 			(at 156.21 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -24413,7 +25299,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:CHIPLED"
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
 			(at 118.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -24446,7 +25332,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG R971-KN-1"
+		(property "MPN" "16-213/GHC-YR1S1/3T"
 			(at 118.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -24506,7 +25392,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 240.03 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -24645,6 +25531,96 @@
 		)
 	)
 	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(at 312.42 181.61 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8db772a-0ae3-4f03-a62f-26d016757198")
+		(property "Reference" "LED37"
+			(at 313.69 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_GREEN_0402"
+			(at 311.15 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_jlc:LED_0402_1005Metric"
+			(at 312.42 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "16-213/GHC-YR1S1/3T"
+			(at 312.42 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "3103dc08-2664-4698-a1b1-931212f9dfa5")
+		)
+		(pin "C"
+			(uuid "c8bbcdd1-9fa4-406a-a251-855c77eb5a6f")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "LED37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 325.12 140.97 0)
 		(unit 1)
@@ -24677,7 +25653,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 325.12 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -24770,7 +25746,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 240.03 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -24863,7 +25839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "lib_jlc:SSM6N44FE-SOT563-remap"
 			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -24896,7 +25872,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "SSM6N44FE,LM"
 			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -25011,102 +25987,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
-		(at 224.79 184.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fd3113e5-bbb3-459c-a156-6f9f8a2074b7")
-		(property "Reference" "LED13"
-			(at 229.87 189.357 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
-			(at 224.79 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOT23-3"
-			(at 224.79 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AM23ESGW"
-			(at 224.79 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "9e2c4349-26a3-40ea-8a45-8a384c04aa3a")
-		)
-		(pin "3"
-			(uuid "2da7e3b9-0587-4d0e-8cb7-f15c23c4218c")
-		)
-		(pin "1"
-			(uuid "d107a9fa-f1d6-4d5a-ace8-73d16fa6510a")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "LED13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 242.57 87.63 0)
 		(unit 1)
@@ -25139,7 +26019,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "lib_jlc:R_0201_0603Metric"
 			(at 242.57 87.63 0)
 			(hide yes)
 			(show_name no)

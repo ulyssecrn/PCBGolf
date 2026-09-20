@@ -1,3 +1,4 @@
 (fp_lib_table
 	(lib (name "pcbgolf") (type "KiCad") (uri "${KIPRJMOD}/pcbgolf.pretty") (options "") (descr "Project-local extracted footprints"))
+	(lib (name "lib_jlc") (type "KiCad") (uri "${KIPRJMOD}/lib_jlc/jlc.pretty") (options "") (descr "JLC/EasyEDA-sourced parts (easyeda2kicad)"))
 )

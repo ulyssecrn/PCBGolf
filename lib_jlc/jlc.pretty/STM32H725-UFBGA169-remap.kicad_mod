@@ -1174,7 +1174,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Package_BGA.3dshapes/UFBGA-169_7x7mm_Layout13x13_P0.5mm.stpZ"
+	(model "${KIPRJMOD}/lib_jlc/packages3d/STM32H725-UFBGA169.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -55,7 +55,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "0" thru_hole circle
 			(at 0 0)
-			(size 3 3)
+			(size 4.2 4.2)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)

@@ -4379,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 166.37 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4457,7 +4457,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 40.64 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4535,7 +4535,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 200.66 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4707,7 +4707,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 71.12 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4878,7 +4878,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 48.26 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5112,7 +5112,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "INDUCTOR, American symbol"
 			(at 207.01 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5391,7 +5391,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 104.14 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5469,7 +5469,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 154.94 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6180,7 +6180,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 148.59 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6465,7 +6465,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 142.24 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7152,7 +7152,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 215.9 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7323,7 +7323,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 184.15 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7401,7 +7401,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 242.57 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7479,7 +7479,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 114.3 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7728,7 +7728,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 208.28 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8361,7 +8361,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 104.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8439,7 +8439,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 232.41 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8598,7 +8598,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 58.42 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8676,7 +8676,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 222.25 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8754,7 +8754,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 30.48 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8832,7 +8832,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "INDUCTOR, American symbol"
 			(at 127 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8925,7 +8925,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.0mm DC Barrel Jack\n\nDCJACK_2MM_PTH - Through Hole Jack (4UConnector: 05537)"
 			(at 38.1 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9021,7 +9021,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 86.36 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9285,7 +9285,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 223.52 121.92 0)
 			(hide yes)
 			(show_name no)

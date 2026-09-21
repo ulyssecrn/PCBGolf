@@ -10918,7 +10918,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 95.25 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -11524,7 +11524,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 297.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11602,7 +11602,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 87.63 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11680,7 +11680,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 299.72 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -12091,7 +12091,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 135.89 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13159,7 +13159,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 118.11 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13339,7 +13339,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 214.63 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -13417,7 +13417,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13666,7 +13666,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 245.11 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13927,7 +13927,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 22.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14005,7 +14005,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 176.53 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -14083,7 +14083,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 176.53 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -14623,7 +14623,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 118.11 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14794,7 +14794,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 135.89 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -15058,7 +15058,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 46.99 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -15136,7 +15136,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 135.89 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -15214,7 +15214,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 245.11 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15571,7 +15571,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 95.25 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15835,7 +15835,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 245.11 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -16015,7 +16015,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 299.72 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16093,7 +16093,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 217.17 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -16171,7 +16171,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 44.45 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -16435,7 +16435,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 176.53 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16513,7 +16513,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 22.86 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16681,7 +16681,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 118.11 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16759,7 +16759,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16837,7 +16837,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 229.87 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17464,7 +17464,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 299.72 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -17635,7 +17635,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 229.87 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -17713,7 +17713,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 214.63 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -18517,7 +18517,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 95.25 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18781,7 +18781,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 327.66 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -18952,7 +18952,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 135.89 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -19213,7 +19213,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 46.99 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -19660,7 +19660,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 87.63 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -19831,7 +19831,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 176.53 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19909,7 +19909,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 245.11 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -20080,7 +20080,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 229.87 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20248,7 +20248,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 312.42 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20605,7 +20605,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 44.45 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -20683,7 +20683,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 297.18 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -20761,7 +20761,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 312.42 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -21118,7 +21118,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 297.18 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -21640,7 +21640,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 327.66 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -21811,7 +21811,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 297.18 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -22075,7 +22075,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 87.63 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22255,7 +22255,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 22.86 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -22333,7 +22333,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 22.86 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -22411,7 +22411,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 118.11 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -22582,7 +22582,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 46.99 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -22843,7 +22843,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 312.42 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22921,7 +22921,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 217.17 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -22999,7 +22999,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 327.66 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -23350,7 +23350,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 229.87 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -23428,7 +23428,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 214.63 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -23506,7 +23506,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 312.42 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -23677,7 +23677,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 46.99 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -23848,7 +23848,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 87.63 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -23926,7 +23926,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 327.66 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -24004,7 +24004,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 217.17 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -24370,7 +24370,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 95.25 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -24448,7 +24448,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 44.45 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -25507,7 +25507,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 299.72 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -25963,7 +25963,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 214.63 118.11 0)
 			(hide yes)
 			(show_name no)

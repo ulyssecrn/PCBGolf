@@ -9465,9 +9465,8 @@
 				)
 			)
 		)
-		(property "Footprint" "lib_jlc:microSD_TF-01A-remap"
+		(property "Footprint" "lib_jlc:microSD_Molex_5033981892"
 			(at 200.66 76.2 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9498,7 +9497,7 @@
 				)
 			)
 		)
-		(property "MPN" "TF-01A"
+		(property "MPN" "5033981892"
 			(at 200.66 76.2 0)
 			(hide yes)
 			(show_name no)

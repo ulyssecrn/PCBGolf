@@ -7325,19 +7325,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "c5dee6ee-9abc-49f7-85b9-446cf76bee24")
+			(uuid "c5dee6ee-9abc-49f7-85b9-446cf76bee25")
 		)
 		(pin "3"
-			(uuid "dbc7b5fe-3be0-4a83-b8e6-50de9a919307")
+			(uuid "dbc7b5fe-3be0-4a83-b8e6-50de9a919308")
 		)
 		(pin "5"
-			(uuid "d8f64908-c185-4142-b034-0f51567659f8")
+			(uuid "d8f64908-c185-4142-b034-0f51567659f9")
 		)
 		(pin "1"
-			(uuid "b7e59aa7-ac58-4e84-b096-979813494015")
+			(uuid "b7e59aa7-ac58-4e84-b096-979813494016")
 		)
 		(pin "2"
-			(uuid "dfc56a5e-0a4f-4684-91f8-7221d7df4e71")
+			(uuid "dfc56a5e-0a4f-4684-91f8-7221d7df4e72")
 		)
 		(instances
 			(project "pcbgolf"
@@ -12833,19 +12833,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "c5dee6ee-9abc-49f7-85b9-446cf76bee24")
+			(uuid "c5dee6ee-9abc-49f7-85b9-446cf76bee26")
 		)
 		(pin "3"
-			(uuid "dbc7b5fe-3be0-4a83-b8e6-50de9a919307")
+			(uuid "dbc7b5fe-3be0-4a83-b8e6-50de9a919309")
 		)
 		(pin "5"
-			(uuid "d8f64908-c185-4142-b034-0f51567659f8")
+			(uuid "d8f64908-c185-4142-b034-0f51567659fa")
 		)
 		(pin "1"
-			(uuid "b7e59aa7-ac58-4e84-b096-979813494015")
+			(uuid "b7e59aa7-ac58-4e84-b096-979813494017")
 		)
 		(pin "2"
-			(uuid "dfc56a5e-0a4f-4684-91f8-7221d7df4e71")
+			(uuid "dfc56a5e-0a4f-4684-91f8-7221d7df4e73")
 		)
 		(instances
 			(project "pcbgolf"

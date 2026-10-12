@@ -5959,10 +5959,6 @@
 		(uuid "0682628b-3ac6-472c-903a-4d405c614d76")
 	)
 	(no_connect
-		(at 64.77 137.16)
-		(uuid "06ae7746-e91f-4b6d-ad90-e74b7db0e891")
-	)
-	(no_connect
 		(at 161.29 48.26)
 		(uuid "17263978-337c-4ae9-a46e-36a045fe50c9")
 	)
@@ -6029,6 +6025,10 @@
 	(no_connect
 		(at 161.29 76.2)
 		(uuid "6f1f03fc-78c6-4e49-bb41-4aa26a17c438")
+	)
+	(no_connect
+		(at 64.77 162.56)
+		(uuid "752ae223-c73a-4ec5-b177-fd0c3419157b")
 	)
 	(no_connect
 		(at 64.77 104.14)
@@ -7552,6 +7552,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 137.16) (xy 64.77 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c9b05f-0592-400b-b7df-91f1d45ea2f3")
+	)
+	(wire
+		(pts
 			(xy 36.83 48.26) (xy 39.37 48.26)
 		)
 		(stroke
@@ -7969,16 +7979,6 @@
 			(type solid)
 		)
 		(uuid "ed01c857-6c27-4613-ac1d-a6117090b55d")
-	)
-	(wire
-		(pts
-			(xy 62.23 162.56) (xy 64.77 162.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ed032180-44c6-4154-9ad9-84faa744c0ab")
 	)
 	(wire
 		(pts
@@ -9546,7 +9546,7 @@
 	)
 	(global_label "BTN"
 		(shape bidirectional)
-		(at 62.23 162.56 180)
+		(at 62.23 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9556,7 +9556,7 @@
 		)
 		(uuid "d356f130-9193-42b3-8141-4e2a02112dce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.719 162.56 0)
+			(at 54.719 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10599,7 +10599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32H725AGI3"
+		(property "Value" "STM32H725VGH6"
 			(at 117.7133 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10644,7 +10644,7 @@
 				)
 			)
 		)
-		(property "MPN" "STM32H725AGI3"
+		(property "MPN" "STM32H725VGH6"
 			(at 113.03 127 0)
 			(hide yes)
 			(show_name no)

@@ -560,7 +560,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.089,
         "diff_pair_gap": 0.15,
         "diff_pair_width": 0.15,
         "line_style": 0,

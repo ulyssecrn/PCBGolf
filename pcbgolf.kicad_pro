@@ -845,7 +845,7 @@
         "uuid": "4ad19786-2fb8-46fb-8362-af47f4d986ee"
       }
     ],
-    "used_designators": "#GND51,#GND59,C54-55,U17-21,LED10-18,LED30-37",
+    "used_designators": "LED10-18,LED30-37,U17-21,C54-55,#GND51,#GND59",
     "variants": []
   },
   "sheets": [

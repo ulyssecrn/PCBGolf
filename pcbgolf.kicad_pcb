@@ -1908,7 +1908,18 @@
 			(uuid "ce1d5262-7531-488c-832f-bc93b9af7760")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+)
 	(footprint "lib_jlc:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0f9c70bf-71a3-4b10-95c0-62582dbeb65a")
@@ -2929,7 +2940,18 @@
 			(uuid "47311917-23cf-4986-a82e-f06843158d7d")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+)
 	(footprint "lib_jlc:USB-C-J3-molex"
 		(layer "F.Cu")
 		(uuid "224a32c2-022c-4451-bf63-6f31bccd8633")
@@ -4257,7 +4279,18 @@
 			(uuid "3cfa7236-3029-41e8-a8b4-15e32aaad5b3")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "2665c9a2-6bb6-486c-93ef-77f0051acd83")
@@ -4916,7 +4949,18 @@
 			(uuid "e899edea-b485-4e3d-96fd-58037ee1a716")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "2e8900c8-570c-48f5-b75b-eb533ea77fc2")
@@ -6916,7 +6960,18 @@
 			(uuid "36e0e4cb-6f88-4d82-b92f-917d890e790a")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:DC-IN-SMD_DC-044D-2.5A-2.0-SMT"
 		(layer "F.Cu")
 		(uuid "3b8193b8-9f6c-4557-bdbe-943771bfeff3")
@@ -9479,7 +9534,18 @@
 			(uuid "24b48732-cf91-4d5c-86a9-98bd8a2f1e2b")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "58fbf1cc-5bd1-4b49-8fbe-fc49b38e10f3")
@@ -10769,7 +10835,18 @@
 			(uuid "d003eb2f-9ba6-4369-92d4-583db0d4919e")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KIPRJMOD}/lib_jlc/jlc.3dshapes/LED-ARRAY-SMD_4P-L1.0-W1.0-TR_NH-B1010RGBT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 270)
+			)
+		)
+)
 	(footprint "lib_jlc:SSM6N44FE-SOT563-remap"
 		(layer "F.Cu")
 		(uuid "64567406-8c00-4865-8179-ae38dbc15883")
@@ -11013,7 +11090,18 @@
 			(uuid "cdd185b6-c914-4692-90fb-02909fc80f75")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+)
 	(footprint "lib_jlc:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "659b4dc5-00c5-4729-b618-bf5bf627e3b4")
@@ -14500,7 +14588,18 @@
 			(uuid "3aeb3035-71da-4f02-bc11-d896b886bdd7")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:SSM6N44FE-SOT563-remap"
 		(layer "F.Cu")
 		(uuid "7e430d37-da0b-4e2e-bb8b-ae684ad21908")
@@ -14744,7 +14843,18 @@
 			(uuid "81a27b97-2f52-451a-abe0-52e5a9a073d4")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "813de8c1-0248-41e5-88f1-a19b3629cd7b")
@@ -17114,7 +17224,18 @@
 			(uuid "69ff344d-b8db-416b-b499-d874776aef9c")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a13b0937-18eb-4049-873c-70fc446b5578")
@@ -17441,7 +17562,18 @@
 			(uuid "12c33328-429b-47da-b4f1-c8dbd5d12517")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a5dbae0e-2ded-4763-b4b2-fd3d3356e755")
@@ -18428,7 +18560,18 @@
 			(uuid "903f52fa-9be1-4d8c-aed4-2e2b45a4d3b1")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a9ec654b-da31-4ce0-bd92-23afc4a0389b")
@@ -19436,7 +19579,18 @@
 			(uuid "632129b0-4635-4319-a9de-b3a514190300")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "aee6cb4c-e177-4360-bc6e-28c102d7634e")
@@ -19875,7 +20029,18 @@
 			(uuid "5ff92dee-a03f-423d-acea-895bef3fe6d5")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1210_3225Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "b4cc9ad8-f02a-4643-a44b-e8599902daaf")
@@ -20368,7 +20533,18 @@
 			(uuid "78d01bbf-dc85-4d16-acb4-3dda55f01074")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "pcbgolf:PP-1212-8"
 		(layer "F.Cu")
 		(uuid "b55733d9-8dd4-4e14-a092-70a33fb3a666")
@@ -23605,7 +23781,18 @@
 			(uuid "f4ef1e32-f2d1-4418-9558-30bee8ddd5fc")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KIPRJMOD}/lib_jlc/jlc.3dshapes/SW-SMD_L3.0-W2.0-LS3.5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "d3702da2-56d3-4c27-9a5e-63583362dacb")
@@ -26146,7 +26333,18 @@
 			(uuid "95e6bafe-6fe8-45d9-a1bb-d705b4bd20fd")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "de75a243-1e7e-4924-b240-5b9ab7c97833")
@@ -26473,7 +26671,18 @@
 			(uuid "91d30ba9-4768-4e35-9386-7d42753fa62f")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:IND_3225_3R3"
 		(layer "F.Cu")
 		(uuid "e3b35c66-bba9-453d-b0b2-b498fda5509b")
@@ -26729,7 +26938,18 @@
 			(uuid "d8b901ac-cba7-4483-abee-9a8b07914d06")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1210_3225Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "e54624be-b5b7-449f-9b5c-a3276b322d40")
@@ -30055,7 +30275,18 @@
 			(uuid "4562181c-9ee5-490d-ae50-9eb4b50bf862")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+)
 	(footprint "pcbgolf:TDFN8_2X3MC_MCH"
 		(layer "F.Cu")
 		(uuid "fb45be3d-26ca-4df8-9d15-875b5c20bde6")
@@ -36516,7 +36747,18 @@
 			(uuid "04b2445f-14d9-4de9-badb-353f4ffce60b")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:STM32H725-TFBGA100-remap"
 		(layer "B.Cu")
 		(uuid "2daa68b3-db8f-4fc7-bc78-4c63c77043a7")
@@ -39575,7 +39817,18 @@
 			(uuid "f74dc98b-2315-4513-b56b-78bce3efda2d")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "3f2d2cce-c726-4095-a0f7-decae2492b96")
@@ -40262,7 +40515,18 @@
 			(uuid "ae68749d-79fe-4a8d-ad12-40a6c1be4cc9")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "56e135c4-1f2a-4797-99d6-6fa553200155")
@@ -41666,7 +41930,18 @@
 			(uuid "2645171a-f645-44f9-89e2-ab6d7bcf6518")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "60e05086-83dc-4f5c-b108-3fe483218c6d")
@@ -43857,7 +44132,18 @@
 			(uuid "76133cae-c656-4dbb-91bb-780cc48aa67a")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "83f9f1e8-6336-4d9f-a477-6e169e50962c")
@@ -45019,7 +45305,18 @@
 			(uuid "ea54c2d0-03ef-4c4c-8bf0-62cba123b5ed")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-353_SC-70-5.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
+)
 	(footprint "lib_jlc:TLV9101-SC70-5"
 		(layer "B.Cu")
 		(uuid "9a0c1fe8-c4cf-49cd-8a5c-11c2d6bed874")
@@ -45316,7 +45613,18 @@
 			(uuid "3faa5eaa-70e0-4613-8f2b-faeea0cd605c")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-353_SC-70-5.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "a05b21ed-14b1-4571-8aeb-d9c617e0b301")
@@ -49636,7 +49944,18 @@
 			(uuid "ff2c8f45-e8fe-446b-ae29-d45f79e8ebcf")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-353_SC-70-5.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
+)
 	(footprint "lib_jlc:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "d9f76b08-bbb6-48f1-844c-219709764edb")
@@ -49804,7 +50123,18 @@
 			(uuid "f5e878f4-dfce-43b7-9ea9-0a54d1756705")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "dae1ab5f-793b-43c8-b9e5-50fe3f0573ba")
@@ -50318,7 +50648,18 @@
 			(uuid "741022df-9785-419c-bf5e-96f56f3fa244")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "e75ce850-0781-4d8d-86c3-d434a0690811")
@@ -51221,7 +51562,18 @@
 			(uuid "09710a57-bed5-455c-ba0a-d612de886ae0")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+)
 	(footprint "pcbgolf:WQFN20"
 		(layer "B.Cu")
 		(uuid "f2e07a39-f1c6-468e-9eae-96fd2eddca5b")
@@ -51958,7 +52310,18 @@
 			(uuid "ff400d2e-883d-41f4-8cd9-124f1dec9875")
 		)
 		(embedded_fonts no)
-	)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-353_SC-70-5.stpZ"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
+)
 	(footprint "lib_jlc:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "f6d9b7a4-33dd-4087-8811-7e1080c11777")

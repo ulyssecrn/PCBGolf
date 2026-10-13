@@ -26,5 +26,15 @@
 	(fp_line (start -1.00 -0.80) (end 1.00 -0.80) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.00 -0.80) (end 1.00 0.80) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.00 0.80) (end -1.00 0.80) (layer F.CrtYd) (width 0.05))
-	
+	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.stpZ"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

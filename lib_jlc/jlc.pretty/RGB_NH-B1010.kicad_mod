@@ -28,5 +28,15 @@
 	(fp_line (start 0.50 -0.50) (end 0.50 0.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 0.50 0.50) (end -0.50 0.50) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy 0.200000 0.100000) (xy 0.499999 0.100000) (xy 0.499999 -0.100000) (xy 0.200000 -0.100000) (xy 0.200000 0.100000)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
-	
+	(model "${KIPRJMOD}/lib_jlc/jlc.3dshapes/LED-ARRAY-SMD_4P-L1.0-W1.0-TR_NH-B1010RGBT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
 )

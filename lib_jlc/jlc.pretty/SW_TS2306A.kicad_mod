@@ -22,5 +22,15 @@
 	(fp_line (start -1.50 -1.00) (end 1.50 -1.00) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.50 -1.00) (end 1.50 1.00) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.50 1.00) (end -1.50 1.00) (layer F.CrtYd) (width 0.05))
-	
+	(model "${KIPRJMOD}/lib_jlc/jlc.3dshapes/SW-SMD_L3.0-W2.0-LS3.5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
